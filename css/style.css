@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  max-height: 100vh;
+  max-width: 100vw;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2019/06/13/moody-blur-wallpaper.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+header h1 {
+  color: #eee;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 20px;
+}
+header p {
+  max-width: 1000px;
+  color: #ccc;
+  padding: 20px;
+  text-align: justify;
+}
+@media screen and (max-width: 600px) {
+  header p {
+    font-size: 14px;
+    margin: 10px 20px 20px 20px;
+  }
+  header h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 600px) {
+  header p {
+    font-size: 18px;
+    margin: 10px 20px 50px 20px;
+  }
+  header h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+}
+.personal-informations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  width: 80%;
+  border: none;
+  padding: 20px;
+}
+.personal-informations input {
+  max-width: 300px;
+  width: 80%;
+  margin: 5px 0;
+  padding: 10px;
+  color: #0c2947;
+  background-color: transparent;
+  border: 2px solid #0c2947;
+  border-radius: 10px;
+  fill: #0c2947;
+}
+.personal-informations a {
+  max-width: 300px;
+  width: 80%;
+  margin: 5px 0;
+  padding: 10px;
+  color: white;
+  background-color: #0c2947;
+  border: 2px solid #0c2947;
+  border-radius: 10px;
+  fill: white;
+  text-align: center;
+  text-decoration: none;
+}
+.form-personal-informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+::placeholder {
+  color: #0c2947;
+  opacity: 1;
+}
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+footer p {
+  text-align: center;
+}
+input[type="date"]:invalid::-webkit-datetime-edit {
+  color: #0c2947;
+}
+.Maladies-chroniques {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.Maladies-chroniques div div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 250px;
+}
+.form-Maladies-chroniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.Maladies-chroniques a {
+  max-width: 300px;
+  width: 80%;
+  margin: 5px 0;
+  padding: 10px;
+  color: white;
+  background-color: #0c2947;
+  border: 2px solid #0c2947;
+  border-radius: 10px;
+  fill: white;
+  text-align: center;
+  text-decoration: none;
+}
+.form-symptomes {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.symptomes {
+  border: none;
+}
+.symptomes a {
+  max-width: 300px;
+  width: 80%;
+  margin: 5px 0;
+  padding: 10px;
+  color: white;
+  background-color: #0c2947;
+  border: 2px solid #0c2947;
+  border-radius: 10px;
+  fill: white;
+  text-align: center;
+  text-decoration: none;
+}
+.symptomes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.symptomes div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
